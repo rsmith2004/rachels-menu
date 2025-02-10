@@ -1,0 +1,43 @@
+h1, h2{
+    text-align: center
+}
+
+#base {
+    color: purple;
+    background-color: rgb(232, 201, 232);
+}
+
+#sauce {
+    background-color: #e4bb89;
+    color: white;
+}
+
+#top{
+    background-color: rgb(250, 212, 214);
+    color: rgb(105, 2, 35);
+}
+
+/* These ARE MOBILE STYLES */
+@media (max-width: 699px){
+    .desktop-only{
+        display: none;
+    }
+}
+
+/* These ARE DESKTOP STYLES */
+
+@media (min-width: 700px) {
+    #container {
+        display: flex;
+        gap: 10px
+    }
+    #base{
+        width: 50%;
+    }
+    #top{
+        width: 30%;
+    }
+    #sauce{
+        width: 20%;
+    }
+}
