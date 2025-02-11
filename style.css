@@ -1,5 +1,6 @@
-h1, h2{
-    text-align: center
+h2{
+    text-align: center;
+    font-family: 'Jua'
 }
 
 #base {
@@ -17,7 +18,7 @@ h1, h2{
     color: rgb(105, 2, 35);
 }
 
-/* These ARE MOBILE STYLES */
+/* These ARE MOBILE STYLES but its not really working oops */
 @media (max-width: 699px){
     .desktop-only{
         display: none;
@@ -32,10 +33,10 @@ h1, h2{
         gap: 10px
     }
     #base{
-        width: 50%;
+        width: 30%;
     }
     #top{
-        width: 30%;
+        width: 50%;
     }
     #sauce{
         width: 20%;
@@ -44,6 +45,44 @@ h1, h2{
 
 
 
-.img{
-    size: 50px;
+.icon{
+    width: 100px; 
+    text-align: center;
+}
+
+
+#logo{
+    display: flex;
+    gap: 40px;
+    text-align: right;
+    text:
+}
+
+
+#title{
+    font-size: 70px;
+    color: rgb(154, 73, 137);
+    font-family: 'Darumadrop One'
+}
+
+#ur_bowl{
+    width: 20%;
+}
+
+#ur_bowl img{
+    width: 100%;
+}
+
+ul{
+    list-style-type:circle;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.centered{
+    text-align: center;
+}
+
+#long-list{
+    column-count: 3;
+    column-gap: 20px;
 }
