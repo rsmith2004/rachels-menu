@@ -3,6 +3,27 @@ h2{
     font-family: 'Jua'
 }
 
+#info{
+    display: flex;  
+    justify-content: space-between; 
+    gap: 60px;
+    align-items: center; 
+    width: 100%;
+    max-width: 800px; 
+    margin: auto;
+}
+
+h3{
+    color: rgb(207, 150, 195);
+    font-family: 'Darumadrop One';  
+}
+
+#disclaimer{
+    color: rgb(207, 150, 195);
+    font-family: 'Darumadrop One';
+    text-align: center;  
+}
+
 #base {
     color: purple;
     background-color: rgb(232, 201, 232);
@@ -55,7 +76,6 @@ h2{
     display: flex;
     gap: 40px;
     text-align: right;
-    text:
 }
 
 
@@ -85,4 +105,11 @@ ul{
 #long-list{
     column-count: 3;
     column-gap: 20px;
+}
+
+#startOrder{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Jua';
+    color:  rgb(154, 73, 137);
 }

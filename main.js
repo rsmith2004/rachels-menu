@@ -1,5 +1,5 @@
 const startOrder = document.querySelector("#startOrder")
-const disclaimer = document.querySelector("dislaimer")
+const disclaimer = document.querySelector("#disclaimer")
 
 let now = new Date();
 let hours = now.getHours();
@@ -12,17 +12,18 @@ const AlmostClosed = function(){
 }
 
 const WeAreClosed = function(){
-    Disclaimer.innerHTML = "We are Closed. Try ordering tomorrow!"
+    disclaimer.innerHTML = "We are Closed. Try ordering tomorrow!"
 }
 
-console.log("now", now)
-console.log("hours", hours)
-console.log("minutes", minutes)
+// prof testing mech
+// console.log("now", now)
+// console.log("hours", hours)
+// console.log("minutes", minutes)
 
-if (hours === 16 && minutes >= 30 && minutes < 59){
+if (hours === 16 && minutes >= 30 && minutes <= 59){
   startOrder.addEventListener("click", AlmostClosed)
- } else if (hours >= 17) {
+ } else if (hours >= 17 || hours < 8) {
      startOrder.addEventListener("click", WeAreClosed)
-    }else{
+    }else {
           " "
          }
