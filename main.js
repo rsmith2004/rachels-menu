@@ -27,3 +27,15 @@ if (hours === 16 && minutes >= 30 && minutes <= 59){
     }else {
           " "
          }
+
+//const Topping_JS = {
+    //"Grain": ["Granola", "Chia Seeds", "Pumpkin Seeds", "Hemp Seeds"],
+    //"Fruit": ["Mango", "Coconut", "Banana", "Kiwi", "Bluberries"]
+//}
+
+//for (const item in Topping_JS){
+    //console.log(item)
+    //for (item)
+//}
+
+    //adding item through loop
