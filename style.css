@@ -34,20 +34,20 @@ h3{
     text-align: center;  
 }
 
-#base {
+#base, #base2 {
     color: purple;
     background-color: rgb(232, 201, 232);
     box-shadow: 4px 4px 10px rgba(128, 108, 127, 0.5);
     /* border-radius: 8%; idk if i like tbh*/
 }
 
-#sauce {
+#sauce, #sauce2 {
     background-color: #e4bb89;
     color: white;
     box-shadow: 4px 4px 10px rgba(128, 108, 127, 0.5);
 }
 
-#top{
+#top, #top2{
     background-color: rgb(250, 212, 214);
     color: rgb(105, 2, 35);
     box-shadow: 4px 4px 10px rgba(128, 108, 127, 0.5);
@@ -140,4 +140,19 @@ ul{
     border-color:rgb(128, 108, 127);
     box-shadow: 4px 4px 10px rgba(128, 108, 127, 0.5);
 
+}
+
+
+#forReference {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+    }
+
+#base2, #sauce2 {
+    width: 40%;
+}
+
+#top2{
+    width: 50%
 }
