@@ -25,7 +25,9 @@ if (hours === 16 && minutes >= 30 && minutes <= 59){
  } else if (hours >= 17 || hours < 8) {
      startOrder.addEventListener("click", WeAreClosed)
     }else {
-          " "
+        startOrder.addEventListener("click", function() {
+        window.location.href = "placeOrder.html"; // Replace with your desired URL
+      });
          }
 
 //const Topping_JS = {
@@ -39,3 +41,6 @@ if (hours === 16 && minutes >= 30 && minutes <= 59){
 //}
 
     //adding item through loop
+
+
+
