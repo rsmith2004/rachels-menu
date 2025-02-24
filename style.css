@@ -130,3 +130,14 @@ ul{
     border-color:rgb(128, 108, 127);
     box-shadow: 4px 4px 10px rgba(128, 108, 127, 0.5);
 }
+
+#back{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Jua';
+    color:  rgb(154, 73, 137);
+    background-color: rgb(233, 208, 227);
+    border-color:rgb(128, 108, 127);
+    box-shadow: 4px 4px 10px rgba(128, 108, 127, 0.5);
+
+}
