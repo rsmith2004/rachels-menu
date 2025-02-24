@@ -150,9 +150,23 @@ ul{
     }
 
 #base2, #sauce2 {
-    width: 40%;
+    width: 100%;
 }
 
 #top2{
-    width: 50%
+    width: 100%
 }
+
+#orderLayout{
+    display: flex;
+    gap: 70px
+}
+
+#cart {
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 1, 49);
+    box-shadow: 4px 4px 10px rgba(128, 108, 127, 0.5);
+    width: 80%;
+    /* border-radius: 8%; idk if i like tbh*/
+}
+
