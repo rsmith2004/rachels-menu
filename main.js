@@ -43,7 +43,7 @@ if (hours === 16 && minutes >= 30 && minutes <= 59){
     //adding item through loop
 
 //DOesn't work lololol
-    const availableItems = document.querySelectorAll(".long-list li");
+    const availableItems = document.querySelectorAll(".options");
     const selectedList = document.getElementById("selectedItems");
 
     availableItems.forEach(item => {
